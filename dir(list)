@@ -1,0 +1,6 @@
+dir(list)
+x=[1,2]
+x=x+[4,5]
+x.extend([6,7])
+x.insert(2,3)
+x
