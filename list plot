@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+x = [1,2,3,4,5]
+fig = plt.figure()
+plt.plot(x)
+plt.title('test')     # 設定 title
+plt.show()
+
+x = [1,2,3,4,5]
+fig, ax = plt.subplots()
+ax.set_title('test')  # 設定 title
+ax.plot(x)
+plt.show()
